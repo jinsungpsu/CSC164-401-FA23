@@ -97,6 +97,54 @@ public class Main {
 //        System.out.println("The sum of the first two numbers is: " + Calculations.sum((int) randomNumbers[0], (int) randomNumbers[1]));
 
 
+        System.out.println("What track should we take?");
+        int trackChoice = in.nextInt();
+
+        if (trackChoice == 1) {
+
+        } else if (trackChoice == 2) {
+
+        } else {
+
+        }
+
+        switch(trackChoice) {
+            case 1:
+            case 2:
+                System.out.println("You're now in track 1");
+                break;
+            case 3:
+            case 4:
+                System.out.println("You're now in track 2");
+                break;
+            default:
+
+
+        }
+
+        System.out.println("Do you want to repeat?");
+        char repeat = in.next().charAt(0);
+
+        switch(repeat) {
+            case 'y':
+            case 'Y':
+                System.out.println("You said Yes!");
+                break;
+            case 'n':
+            case 'N':
+                System.out.println("You said no");
+                break;
+            default:
+                System.out.println("Invalid entry");
+        }
+
+        if (repeat == 'y' || repeat == 'Y') {
+
+        } else if (repeat == 'N' || repeat == 'n') {
+
+        } else {
+
+        }
     }
 
 //    static void printBlahblah() {
